@@ -4,3 +4,9 @@ streamlit
 nltk
 pickle
 string
+numpy
+pandas
+scikit-learn
+nltk
+matplotlib
+seaborn
