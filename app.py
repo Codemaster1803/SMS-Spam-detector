@@ -3,11 +3,20 @@ import pickle
 
 import nltk
 
-
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
+
+try:
+    nltk.data.find('taggers/averaged_perceptron_tagger')
+except LookupError:
+    nltk.download('averaged_perceptron_tagger')
 # Load model and vectorizer with error handling
 try:
     tfidf = pickle.load(open('vectorizer3.pkl', 'rb'))
