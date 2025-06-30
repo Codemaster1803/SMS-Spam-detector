@@ -1,6 +1,13 @@
 import streamlit as st
 import pickle
 
+import nltk
+
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 # Load model and vectorizer with error handling
 try:
     tfidf = pickle.load(open('vectorizer3.pkl', 'rb'))
