@@ -25,11 +25,11 @@ A machine learning project to classify SMS messages as **spam** or **ham** (not 
 4. **Try the trained model:**
    You can load the saved model (model3.pkl) and vectorizer (vectorizer3.pkl) to classify new SMS texts.
 
-## 📝 Dataset
+##  Dataset
 - Dataset used: SMS Spam Collection Dataset (UCI Machine Learning Repository or Kaggle).
 - The dataset contains SMS messages labeled as `spam` or `ham`.
 
-## 🛠️ How It Works
+##  How It Works
 - **Text Cleaning:** Remove unnecessary characters, convert text to lowercase, etc.
 - **Vectorization:** Convert cleaned text into numerical features using TF-IDF.
 - **Model Training:** Train a classifier (e.g., Naive Bayes) on the training data.
@@ -37,6 +37,6 @@ A machine learning project to classify SMS messages as **spam** or **ham** (not 
 - **Deployment Ready:** Save trained model and vectorizer to classify new incoming messages.
 
 
-## 🙋‍♂️ Author
+## 🙋‍♂ Author
 - **Codemaster1803**
 - GitHub: [@Codemaster1803](https://github.com/Codemaster1803)
